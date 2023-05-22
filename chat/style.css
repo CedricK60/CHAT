@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #f4f4f4;
+}
+
+.container{
+    background-color: #333;
+    width: 60%;
+    min-height: 630px;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+header h1{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0 10px 20px;
+}
+
+.messages{
+    width: 90%;
+    height: 400px;
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.message{
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid silver;
+}
+
+.formulaire{
+    width: 90%;
+    min-height: 80px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.formulaire input[type='text'], select{
+    width: 48%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.formulaire input[type='submit']{
+    width: 50%;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 10px;
+}
